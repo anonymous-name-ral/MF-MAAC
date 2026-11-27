@@ -23,8 +23,9 @@ pip install -r requirements-uav_lds.txt
 The UAV-LDS Unity build (Linux) is included as `uav_lds/unity_build/Build_Linux_eval_v2_5uav.zip` and is unpacked
 automatically on the first run.
 
-Pretrained models will be released upon acceptance of the paper. They go in `pretrained/rware/<model>.pt` and
-`pretrained/uav_lds/<model>.pt`.
+Pretrained models: because of their size, the trained checkpoints will be provided through Google Drive. To keep the
+review double-anonymous, the link will be added here after the paper is accepted. Place the downloaded files at
+`pretrained/rware/<model>.pt` and `pretrained/uav_lds/<model>.pt`.
 
 ## Usage
 
