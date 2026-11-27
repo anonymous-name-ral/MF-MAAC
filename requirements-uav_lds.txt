@@ -1,0 +1,15 @@
+# UAV-LDS experiments (Unity ML-Agents environment). Tested with Python 3.8.19 on Ubuntu (x86_64).
+# The Unity build is Linux x86_64 only.
+# Install PyTorch first for your CUDA / CPU setup (tested: torch 2.4.1), e.g.
+#   pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cu118
+# then:
+#   pip install -r requirements-uav_lds.txt
+mlagents-envs==0.27.0
+numpy==1.20.3
+protobuf==3.20.3
+grpcio==1.70.0
+gym==0.26.2
+scipy==1.10.1
+cloudpickle==1.2.2
+six==1.17.0
+wandb==0.24.2

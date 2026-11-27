@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+results/
+wandb/
+pretrained/**/*.pt
+uav_lds/unity_build/Build_Linux_eval_v2_5uav/
+CSV/

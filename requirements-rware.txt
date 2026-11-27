@@ -1,0 +1,14 @@
+# RWARE experiments. Tested with Python 3.8.19 on Ubuntu (x86_64).
+# Install PyTorch first for your CUDA / CPU setup (tested: torch 1.9.0; newer 1.x/2.x releases also load the checkpoints), e.g.
+#   pip install torch==1.9.0 --index-url https://download.pytorch.org/whl/cu111
+# then:
+#   pip install -r requirements-rware.txt
+numpy==1.23.5
+gym==0.26.2
+networkx==3.1
+pyglet==1.5.0
+scipy==1.10.1
+cloudpickle==1.2.2
+six==1.17.0
+tensorboardX==2.6.2.2
+wandb==0.24.2
